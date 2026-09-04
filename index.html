@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaurav_Srivastava_Resume_Protocol</title>
+    <style>
+        :root {
+            --bg-color: #030305;
+            --grid-color: rgba(0, 255, 204, 0.05);
+            --primary-glow: #00ffcc;
+            --secondary-glow: #b026ff;
+            --text-main: #e0e6ed;
+            --text-muted: #8892b0;
+            --font-mono: 'Fira Code', 'Courier New', Courier, monospace;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            background-image: 
+                linear-gradient(var(--grid-color) 1px, transparent 1px),
+                linear-gradient(90deg, var(--grid-color) 1px, transparent 1px);
+            background-size: 30px 30px;
+            color: var(--text-main);
+            font-family: var(--font-mono);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            border-bottom: 1px solid var(--primary-glow);
+            padding-bottom: 20px;
+            margin-bottom: 40px;
+            box-shadow: 0 10px 15px -10px rgba(0, 255, 204, 0.2);
+        }
+
+        h1 {
+            color: var(--primary-glow);
+            font-size: 2.5rem;
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-shadow: 0 0 10px rgba(0, 255, 204, 0.5);
+        }
+
+        .subtitle {
+            color: var(--secondary-glow);
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+
+        .terminal-box {
+            background: rgba(10, 15, 30, 0.8);
+            border: 1px solid #1f2937;
+            border-left: 3px solid var(--primary-glow);
+            padding: 20px;
+            margin-bottom: 40px;
+            border-radius: 4px;
+            min-height: 120px;
+        }
+
+        .typing-text::after {
+            content: '█';
+            animation: blink 1s step-start infinite;
+            color: var(--primary-glow);
+        }
+
+        @keyframes blink {
+            50% { opacity: 0; }
+        }
+
+        h2 {
+            color: var(--text-main);
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        h2::before {
+            content: '>';
+            color: var(--primary-glow);
+            margin-right: 10px;
+        }
+
+        .grid-section {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+
+        .card:hover {
+            border-color: var(--secondary-glow);
+            box-shadow: 0 0 15px rgba(176, 38, 255, 0.2);
+            transform: translateY(-2px);
+        }
+
+        .card h3 {
+            margin-top: 0;
+            color: var(--primary-glow);
+            font-size: 1.2rem;
+            margin-bottom: 5px;
+        }
+
+        .skill-tag {
+            display: inline-block;
+            padding: 5px 10px;
+            margin: 5px 5px 5px 0;
+            background: rgba(0, 255, 204, 0.1);
+            border: 1px solid var(--primary-glow);
+            color: var(--primary-glow);
+            font-size: 0.85rem;
+            border-radius: 3px;
+        }
+
+        a {
+            color: var(--secondary-glow);
+            text-decoration: none;
+            transition: text-shadow 0.3s ease;
+        }
+
+        a:hover {
+            text-shadow: 0 0 8px var(--secondary-glow);
+        }
+
+        ul {
+            padding-left: 20px;
+            margin-top: 10px;
+        }
+        
+        li {
+            margin-bottom: 10px;
+            font-size: 0.95rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Gaurav Srivastava[span_0](start_span)[span_0](end_span)[span_1](start_span)[span_1](end_span)</h1>
+            <div class="subtitle">BCA Student & Operations Intern[span_2](start_span)[span_2](end_span)[span_3](start_span)[span_3](end_span)</div>
+        </header>
+
+        <section class="terminal-box">
+            <div id="terminal-text" class="typing-text"></div>
+        </section>
+
+        <section>
+            <h2>Core_Competencies[span_4](start_span)[span_4](end_span)[span_5](start_span)[span_5](end_span)</h2>
+            <div class="card" style="margin-bottom: 40px;">
+                <span class="skill-tag">Operations Coordination[span_6](start_span)[span_6](end_span)</span>
+                <span class="skill-tag">Student Data Management[span_7](start_span)[span_7](end_span)[span_8](start_span)[span_8](end_span)</span>
+                <span class="skill-tag">MS Excel & Google Sheets[span_9](start_span)[span_9](end_span)[span_10](start_span)[span_10](end_span)</span>
+                <span class="skill-tag">ClassPro Software[span_11](start_span)[span_11](end_span)[span_12](start_span)[span_12](end_span)</span>
+                <span class="skill-tag">Python (Basic)[span_13](start_span)[span_13](end_span)[span_14](start_span)[span_14](end_span)</span>
+                <span class="skill-tag">HTML/CSS/JS[span_15](start_span)[span_15](end_span)[span_16](start_span)[span_16](end_span)</span>
+                <span class="skill-tag">Data Analysis & Reporting[span_17](start_span)[span_17](end_span)[span_18](start_span)[span_18](end_span)</span>
+            </div>
+        </section>
+
+        <section>
+            <h2>Operational_Experience[span_19](start_span)[span_19](end_span)[span_20](start_span)[span_20](end_span)</h2>
+            <div class="card" style="margin-bottom: 40px;">
+                <h3>Operations & Coordination Intern[span_21](start_span)[span_21](end_span)[span_22](start_span)[span_22](end_span)</h3>
+                <div style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 15px;">Career Launcher, Noida // June 2025 – June 2026[span_23](start_span)[span_23](end_span)</div>
+                <ul>
+                    <li>Managed end-to-end student attendance tracking across coaching batches using ClassPro, maintaining accurate and up-to-date records.[span_24](start_span)[span_24](end_span)[span_25](start_span)[span_25](end_span)</li>
+                    <li>Identified students missing from assigned batches and updated records to maintain data accuracy across the system.[span_26](start_span)[span_26](end_span)[span_27](start_span)[span_27](end_span)</li>
+                    <li>Maintained and organized student data, class schedules, and performance records using MS Excel and Google Sheets.[span_28](start_span)[span_28](end_span)[span_29](start_span)[span_29](end_span)</li>
+                    <li>Coordinated and updated batch-wise class schedules through ClassPro to support smooth day-to-day academic operations.[span_30](start_span)[span_30](end_span)[span_31](start_span)[span_31](end_span)</li>
+                    <li>Supported daily coordination between faculty, students, and administration, helping resolve routine operational requirements.[span_32](start_span)[span_32](end_span)[span_33](start_span)[span_33](end_span)</li>
+                    <li>Organized and conducted offline mock tests for CLAT and IPMAT aspirants, managing exam logistics and student coordination.[span_34](start_span)[span_34](end_span)[span_35](start_span)[span_35](end_span)</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Certifications_&_Training[span_36](start_span)[span_36](end_span)[span_37](start_span)[span_37](end_span)[span_38](start_span)[span_38](end_span)</h2>
+            <div class="grid-section">
+                <div class="card">
+                    <h3>Forward Program[span_39](start_span)[span_39](end_span)</h3>
+                    <div style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 10px;">McKinsey.org // Jun 23, 2026[span_40](start_span)[span_40](end_span)</div>
+                    <p>Developed practical skills for success in the future of work, including the McKinsey approach to problem-solving, effective communication, and a foundational digital toolkit.[span_41](start_span)[span_41](end_span)</p>
+                </div>
+                <div class="card">
+                    <h3>AI Fluency: Framework & Foundations[span_42](start_span)[span_42](end_span)</h3>
+                    <div style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 10px;">Anthropic, UCC & Ringling College[span_43](start_span)[span_43](end_span)</div>
+                    <p>Completed comprehensive certificate training in foundational artificial intelligence frameworks.[span_44](start_span)[span_44](end_span)</p>
+                </div>
+                <div class="card">
+                    <h3>Complete Python Developer[span_45](start_span)[span_45](end_span)[span_46](start_span)[span_46](end_span)</h3>
+                    <div style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 10px;">Udemy // Andrei Neagoie[span_47](start_span)[span_47](end_span)[span_48](start_span)[span_48](end_span)</div>
+                    <p>Gained fundamental programming competencies and technical software development skills.[span_49](start_span)[span_49](end_span)[span_50](start_span)[span_50](end_span)</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Projects_&_Education[span_51](start_span)[span_51](end_span)[span_52](start_span)[span_52](end_span)</h2>
+            <div class="grid-section">
+                <div class="card">
+                    <h3>Data Tracking & Research[span_53](start_span)[span_53](end_span)[span_54](start_span)[span_54](end_span)</h3>
+                    <ul>
+                        <li><strong>Market Research Project:</strong> Researched trending digital products and consumer behavior, organizing findings into a structured report to identify actionable market trends.[span_55](start_span)[span_55](end_span)[span_56](start_span)[span_56](end_span)</li>
+                        <li><strong>Productivity Tracker:</strong> Built an Excel-based tracker utilizing formulas and a structured layout to monitor daily tasks and study hours, significantly improving consistency and visibility into daily productivity.[span_57](start_span)[span_57](end_span)[span_58](start_span)[span_58](end_span)</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Academic Profile[span_59](start_span)[span_59](end_span)[span_60](start_span)[span_60](end_span)</h3>
+                    <ul>
+                        <li><strong>BCA:</strong> IGNOU (2023 – 2026)[span_61](start_span)[span_61](end_span)[span_62](start_span)[span_62](end_span)</li>
+                        <li><strong>Senior Secondary (XII):</strong> Army Public School, Noida[span_63](start_span)[span_63](end_span)[span_64](start_span)[span_64](end_span)</li>
+                        <li><strong>Secondary (X):</strong> Army Public School, Noida[span_65](start_span)[span_65](end_span)[span_66](start_span)[span_66](end_span)</li>
+                        <li><strong>Extracurricular:</strong> Participant in the Prithvi Vihar Football Club Season 4 Tournament (Oct 17, 2025).[span_67](start_span)[span_67](end_span)</li>
+                        <li><strong>Future Goal:</strong> Preparing for CAT 2026 with a strong interest in business, management, operations, and analytics.[span_68](start_span)[span_68](end_span)[span_69](start_span)[span_69](end_span)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Communication_Uplinks[span_70](start_span)[span_70](end_span)[span_71](start_span)[span_71](end_span)</h2>
+            <div class="card">
+                <p>Phone: 7827774251[span_72](start_span)[span_72](end_span)[span_73](start_span)[span_73](end_span)</p>
+                <p>Email: <a href="mailto:srivastagaurav81@gmail.com">srivastagaurav81@gmail.com</a>[span_74](start_span)[span_74](end_span)[span_75](start_span)[span_75](end_span)</p>
+                <p>LinkedIn: <a href="https://linkedin.com/in/gaurav-srivastava-77a253227" target="_blank">linkedin.com/in/gaurav-srivastava-77a253227</a>[span_76](start_span)[span_76](end_span)[span_77](start_span)[span_77](end_span)</p>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        const text = "Initializing profile: Gaurav Srivastava... \nLoading operational history and BCA metrics... \nIntegrating McKinsey Forward & AI Fluency protocols... \nStatus: Ready for deployment. \nMission: Driving data-driven decisions and operational excellence.";
+        const terminal = document.getElementById('terminal-text');
+        let index = 0;
+
+        function typeWriter() {
+            if (index < text.length) {
+                if (text.charAt(index) === '\n') {
+                    terminal.innerHTML += '<br><br>';
+                } else {
+                    terminal.innerHTML += text.charAt(index);
+                }
+                index++;
+                setTimeout(typeWriter, 35);
+            } else {
+                terminal.classList.remove('typing-text');
+            }
+        }
+
+        window.onload = () => {
+            setTimeout(typeWriter, 500);
+        };
+    </script>
+</body>
+</html>
